@@ -19,16 +19,16 @@ or 'f' (indicates frequency domain).
 describe what is measured
 
 
-BodyAcc
-GravityAcc
-BodyAccJerk
-BodyGyro
-BodyGyroJerk
-BodyAccMag
-GravityAccMag
-BodyAccJerkMag
-BodyGyroMag
-BodyGyroJerkMag
+..*BodyAcc
+..*GravityAcc
+..*BodyAccJerk
+..*BodyGyro
+..*BodyGyroJerk
+..*BodyAccMag
+..*GravityAccMag
+..*BodyAccJerkMag
+..*BodyGyroMag
+..*BodyGyroJerkMag
 
 - Following one of the above descriptive words, either
 '-mean()' or '-std()' is included, indicating mean value and
@@ -37,5 +37,9 @@ standard deviation, respectively.
 - At last, there might be '-X', '-Y', or '-Z' at the end,
 indicating direction.
 
-[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+##NOTES
+For more details on the measurements, refer to
+features_info.txt in the original dataset that
+is available:
 
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
