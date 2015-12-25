@@ -20,16 +20,16 @@ names follow the same naming convention.
 or 'f' (indicates frequency domain).
 - Subsequently, there are different words as listed below to
 describe what is measured
-  * BodyAcc
-  * GravityAcc
-  * BodyAccJerk
-  * BodyGyro
-  * BodyGyroJerk
-  * BodyAccMag
-  * GravityAccMag
-  * BodyAccJerkMag
-  * BodyGyroMag
-  * BodyGyroJerkMag
+  * BodyAcc (unit: standard gravity 'g')
+  * GravityAcc (unit: standard gravity 'g')
+  * BodyAccJerk (unit: standard gravity 'g')
+  * BodyGyro (unit: radians/second)
+  * BodyGyroJerk (unit: radians/second)
+  * BodyAccMag (unit: standard gravity 'g')
+  * GravityAccMag (unit: standard gravity 'g')
+  * BodyAccJerkMag (unit: standard gravity 'g')
+  * BodyGyroMag (unit: radians/second)
+  * BodyGyroJerkMag (unit: radians/second)
 - Following one of the above descriptive words, either
 '-mean()' or '-std()' is included, indicating mean value and
 standard deviation, respectively.
