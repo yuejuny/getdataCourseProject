@@ -15,9 +15,9 @@ includes:
 1. Merge train/test datasets in folder "raw.data" and save
 merged dataset in folder "processed.data". These are the
 merged files:
-..* subject_train.txt + subject_test.txt --> subject_merged.txt
-..* X_train.txt + X_test.txt --> X_merged.txt
-..* y_train.txt + y_test.txt --> y_merged.txt
+  * subject_train.txt + subject_test.txt --> subject_merged.txt
+  * X_train.txt + X_test.txt --> X_merged.txt
+  * y_train.txt + y_test.txt --> y_merged.txt
 Refer to README.txt in the original dataset for more detailed information
 about these files. Download the original dataset for
 this project:

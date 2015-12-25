@@ -19,16 +19,16 @@ or 'f' (indicates frequency domain).
 describe what is measured
 
 
-..*BodyAcc
-..*GravityAcc
-..*BodyAccJerk
-..*BodyGyro
-..*BodyGyroJerk
-..*BodyAccMag
-..*GravityAccMag
-..*BodyAccJerkMag
-..*BodyGyroMag
-..*BodyGyroJerkMag
+  *BodyAcc
+  *GravityAcc
+  *BodyAccJerk
+  *BodyGyro
+  *BodyGyroJerk
+  *BodyAccMag
+  *GravityAccMag
+  *BodyAccJerkMag
+  *BodyGyroMag
+  *BodyGyroJerkMag
 
 - Following one of the above descriptive words, either
 '-mean()' or '-std()' is included, indicating mean value and
